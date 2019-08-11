@@ -136,7 +136,7 @@ $arg1 = $event->getParam(1);
 ```php
 \Swoft::triggerByArray('event name', 'target', [
     'arg0' => $arg0,
-    'arg0' => $arg1
+    'arg1' => $arg1
 ]);
 ```
 
